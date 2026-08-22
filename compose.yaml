@@ -1,0 +1,8 @@
+services:
+  nats:
+    image: nats:2.10
+    container_name: solstice-nats
+    command: ["-js"]
+    ports:
+      - "4222:4222"
+      - "8222:8222"
