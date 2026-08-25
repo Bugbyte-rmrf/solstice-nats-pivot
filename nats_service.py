@@ -37,3 +37,4 @@ async def publish_print_request(
     )
 
     return result
+
