@@ -44,3 +44,5 @@ def initialize_database():
 
     connection.commit()
     connection.close()
+
+
