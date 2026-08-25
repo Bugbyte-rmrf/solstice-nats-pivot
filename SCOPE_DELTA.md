@@ -76,3 +76,5 @@ Stale callbacks did not change the current attendee state.
 The new architecture removes the dependency on an immediate
 printer response, but introduces asynchronous state management,
 message persistence, webhook processing, and event-ordering concerns.
+
+
