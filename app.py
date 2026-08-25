@@ -177,3 +177,5 @@ async def print_complete(request: Request):
     connection.close()
 
     return {"message": "Check-in confirmed", "attendee_id": attendee_id, "job_id": job_id}
+
+
