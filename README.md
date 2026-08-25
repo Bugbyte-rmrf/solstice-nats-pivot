@@ -1,7 +1,7 @@
 # Solstice Event Check-In: Asynchronous Architecture Pivot
 
 ## Overview
-This project is an event-driven conference check-in system built with Python, FastAPI, SQLite, and NATS JetStream. It demonstrates a pivot from a synchronous REST architecture (which blocks the UI while waiting for a physical printer) to a fully asynchronous, event-driven architecture using message queues and webhooks.
+This project is an event-driven check-in system built with Python, FastAPI, SQLite, and NATS JetStream. It demonstrates a pivot from a synchronous REST architecture (which blocks the UI while waiting for a physical printer) to a fully asynchronous, event-driven architecture using message queues and webhooks.
 
 ## Architecture & Data Flow
 1. **Kiosk (Browser):** User clicks to scan an attendee badge.
